@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17251f">
+  <title>Yes Chef — Behind the serving line</title>
+  <meta name="description" content="Jason Pierce’s field notes from a fire camp kitchen, a tour of Yes Chef, and a printable guide for the next crew.">
+  <meta property="og:title" content="Yes Chef — Behind the serving line">
+  <meta property="og:description" content="A season on salad bar, the software that came out of it, and a handoff for the next crew. By Jason Pierce.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://zenpierce27.github.io/yes-chef-field-notes/assets/mobile-kitchen.webp">
+  <meta property="og:image:alt" content="Mother Lode’s mobile kitchen with the serving ramps set up.">
+  <link rel="icon" href="assets/yes-chef.png">
+  <link rel="preload" href="assets/instrumentserif-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="journal.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="cover">
+    <div class="mast shell">
+      <a class="brand" href="#top" aria-label="Yes Chef, back to top"><img src="assets/yes-chef.png" alt="" width="34" height="34"><span>Yes Chef</span></a>
+      <nav aria-label="Page sections"><a href="#notes"><span class="nav-long">Season notes</span><span class="nav-short">Notes</span></a><a href="#app">App tour</a><a href="#handoff">Handoff</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="cover">
+      <section class="hero shell" aria-labelledby="cover-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="rule"></span>Fire camp field journal <span class="slash">/</span> 2026</p>
+          <h1 id="cover-title">Behind the<br><em>serving line.</em></h1>
+          <p class="hero-intro">I joined Mother Lode as a cook. Within three weeks I was running the salad bar. I built Yes Chef to help plan meals and pass work between shifts. Here’s what I’d hand to the next crew.</p>
+          <div class="hero-buttons"><a class="button bright" href="#app">Tour Yes Chef</a><a class="hero-link" href="#notes">Read my season notes</a></div>
+          <p class="credit"><strong>Jason Pierce</strong><span></span>Salad Bar Lead</p>
+        </div>
+        <figure class="cover-figure">
+          <div class="photo-mount">
+            <img src="assets/mobile-kitchen.webp" alt="Mother Lode’s MKU-2 mobile kitchen, with its forest mural and both metal serving ramps set up." width="1536" height="1027" fetchpriority="high">
+            <figcaption><span class="film-mark" aria-hidden="true"></span>MKU-2, preseason setup</figcaption>
+          </div>
+        </figure>
+      </section>
+    </div>
+  <div class="page-content" role="region" aria-label="Field journal and handoff">
+    <section class="notes shell section" id="notes" aria-labelledby="notes-title">
+      <div class="section-lede">
+        <div class="eyebrow"><span class="rule"></span>Season notes</div>
+        <h2 id="notes-title">What I’d carry<br><em>into next season.</em></h2>
+        <p>From the kitchen, the question was usually pretty simple. Who’s filling the pans while someone else is out front keeping the line moving? I kept notes on the places where a little planning could give the crew a hand.</p>
+        <figure class="station-photo"><img src="assets/salad-station.webp" alt="The empty salad bar trailer, seen from the prep end looking along the serving counter." width="950" height="635" loading="lazy"><figcaption>Inside the salad bar trailer before service.</figcaption></figure>
+      </div>
+      <div class="entries">
+        <details open><summary>Give the salad bar two clear jobs.</summary><div class="entry-text"><p>My proposed split is a prep cook and a runner. The cook opens the station, preps ingredients and keeps backup pans ready. The runner sets up the bar and drinks, replenishes during service and owns the close. Both know who takes the next empty pan.</p></div></details>
+        <details><summary>Teach the first three shifts.</summary><div class="entry-text"><p>Hire people for a station and give them a named trainer. I’d protect the first three shifts for working alongside an experienced hand. Start with setup, move through service together, then let the new person run the station with someone there to help.</p></div></details>
+        <details><summary>Make recipes travel with the crew.</summary><div class="entry-text"><p>A good dinner in one kitchen should be repeatable in the other. Keep the recipe, serving count and pull quantities together. After service, give the cook a place to record what ran short, what came back and what they’d change.</p></div></details>
+        <details><summary>Put a name beside the work.</summary><div class="entry-text"><p>I’d name leads for the kitchen, front of house, lunches and logistics, and give one person responsibility for hours and paperwork. A crew member should know who can settle a scheduling question. The next shift should know who is following up on a repair.</p></div></details>
+        <details><summary>Follow a delivery all the way in.</summary><div class="entry-text"><p>Give one person the delivery sheet. Check what arrived, mark the storage location and set aside what the next service needs. Count the cleaning supplies when counting food. A station checklist works a lot better when there’s soap on the shelf.</p></div></details>
+      </div>
+    </section>
+    <section class="app-section" id="app" aria-labelledby="app-title">
+      <div class="shell section">
+        <div class="eyebrow"><span class="rule"></span>Inside the app</div>
+        <div class="app-heading"><h2 id="app-title">A shift inside <em>Yes Chef.</em></h2><p>Four screens from the running app. The records in this tour are sample data.</p></div>
+        <div class="tour">
+          <div class="tour-menu" aria-label="App tour stops">
+            <a class="stop current" href="#screen-operations" data-stop="operations"><span>Morning standup</span></a>
+            <a class="stop" href="#screen-today" data-stop="today"><span>Unit dashboard</span></a>
+            <a class="stop" href="#screen-pull-sheet" data-stop="pull-sheet"><span>Dinner pull sheet</span></a>
+            <a class="stop" href="#screen-handoff" data-stop="handoff"><span>Shift handoff</span></a>
+          </div>
+          <div class="tour-scenes">
+            <article class="scene" id="screen-operations"><div class="scene-copy"><h3>The morning standup</h3><p>Start with a view across the kitchen units. A manager can see which unit needs a closer look before the day gets busy.</p></div><a class="screen" href="assets/operations.webp"><img alt="Morning standup in Yes Chef, showing the status of sample kitchen units." src="assets/operations.webp" loading="lazy"><span>Enlarge screen</span></a></article>
+            <article class="scene" id="screen-today"><div class="scene-copy"><h3>Open the unit for the day</h3><p>In this kitchen, the board puts the menu rotation beside the expected headcount of 400. The lead can see what the crew is cooking and how many people to plan for.</p></div><a class="screen" href="assets/today.webp"><img alt="The Yes Chef daily dashboard for a sample mobile kitchen unit." src="assets/today.webp" loading="lazy"><span>Enlarge screen</span></a></article>
+            <article class="scene" id="screen-pull-sheet"><div class="scene-copy"><h3>Pull enough for dinner</h3><p>Four hundred dinner orders plus a 5% cushion makes 420 portions. For this sample menu, the app calculates 14 cases and tells the person pulling them what’s in the cooler and what’s in dry storage.</p></div><a class="screen" href="assets/pull-sheet.webp"><img alt="Dinner pull sheet with expected covers, a prep buffer and ingredient quantities for a sample meal." src="assets/pull-sheet.webp" loading="lazy"><span>Enlarge screen</span></a></article>
+            <article class="scene" id="screen-handoff"><div class="scene-copy"><h3>Leave a note for the next shift</h3><p>The rolls and rice are staged. The cucumbers still need prep. The cook coming on duty can see what changed on the menu and which count to check next.</p></div><a class="screen" href="assets/handoff.webp"><img alt="Yes Chef shift handoff showing sample notes for an incoming crew." src="assets/handoff.webp" loading="lazy"><span>Enlarge screen</span></a></article>
+          </div>
+        </div>
+        <div class="headcount-demo">
+          <div><p class="eyebrow">Pull sheet example</p><h3>When the dinner count changes</h3><p>Move the expected headcount. This example allows an extra five portions for every hundred people.</p></div>
+          <div class="calculator"><label for="covers">Expected headcount <strong id="expected-covers">400</strong></label><input type="range" id="covers" min="100" max="1000" step="20" value="400"><div class="range-ends" aria-hidden="true"><span>100</span><span>1,000</span></div></div>
+          <div class="portion-result"><output for="covers" id="portions">420</output><span>portions to plan</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="beyond shell section" aria-labelledby="beyond-title">
+      <div class="section-lede"><div class="eyebrow"><span class="rule"></span>Beyond meal service</div><h2 id="beyond-title">The rest of<br><em>the work.</em></h2><blockquote>“I wanted you to see it shaped like actual camp work instead of a stack of sheets.”<cite>From my April note sharing Yes Chef</cite></blockquote></div>
+      <div class="work-list">
+        <div><h3>Recruiting and training</h3><p>People applied through the careers portal. A manager could print a one-page applicant brief for an interview. I also put together short lessons on handwashing, sanitation, rotating stock and building sack lunches.</p></div>
+        <div><h3>Menus, counts and equipment</h3><p>A two-week menu rotation connects the approved plate to kitchen prep and pulls. Inventory tools cover receiving, storage and counts. Fleet records give inspections and repairs a place to follow the equipment back to the yard.</p></div>
+        <div><h3>The paperwork behind service</h3><p>I drafted station procedures and built a contract library organized by section so a lead could look up a requirement from camp. I also mapped the questions around meal invoices, including who signs and which form the office needs. Those billing decisions were still open at handoff.</p></div>
+        <div><h3>Life in camp</h3><p>We tested two-way crew texts in the field. The Camp Board puts menus, services and notices behind a QR code. The app also has crew schedules, sleeping assignments and an hours history. Official payroll stayed with the office.</p></div>
+      </div>
+    </section>
+    <section class="signoff" id="handoff" aria-labelledby="handoff-title">
+      <div class="shell signoff-grid">
+        <div><div class="eyebrow"><span class="rule"></span>The handoff</div><h2 id="handoff-title">For the <em>next crew.</em></h2><p>I put the season notes, a three-shift training trial and a blank handoff sheet into a short guide. Take whatever helps. If you’d like to try one station together, I’d be glad to walk through it with you.</p><p class="signature">Jason Pierce</p><div class="handoff-actions"><a class="button bright" href="field-guide.pdf" download="Yes-Chef-Field-Guide.pdf">Get the field guide <small>PDF · 3 pages</small></a><a class="hero-link" href="https://dirtbagai.com/book">Talk with Jason</a></div></div>
+        <figure class="signoff-photo"><img src="assets/serving-wells.webp" width="1050" height="702" loading="lazy" alt="The clean stainless steel serving wells inside the mobile kitchen before service."><figcaption>MKU-2 kitchen, before the first pan goes in.</figcaption></figure>
+      </div>
+    </section>
+  </div>
+  </main>
+  <footer class="shell footer"><a href="#top" class="footer-brand">Yes Chef</a><span>Field notes and photographs by Jason Pierce · 2026</span><a href="#top">Back to top</a></footer>
+  <dialog id="viewer" aria-label="Enlarged app screenshot"><div class="viewer-tools"><span id="viewer-title"></span><button type="button" id="close-viewer" autofocus>Close</button></div><div class="viewer-image"><img id="viewer-img" alt=""></div></dialog>
+</body>
+</html>
